@@ -333,7 +333,6 @@ window.addEventListener("resize",function(){
 function restart(){
     window.location.reload();
     startBtn.style.display="none";
-    powerEle.style.display="none";
     restartBtn.style.display="block";
     box.style.display="block";
     document.body.style.backgroundColor="white";
