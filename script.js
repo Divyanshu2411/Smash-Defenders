@@ -33,7 +33,7 @@ let ePosY= canvas.height/2-20;
 let score=0;
 let fullPower=100;
 
-class Planet{
+class Planet{  
     constructor(x,y,width,height){
         this.x=x;
         this.y=y; 
@@ -210,7 +210,7 @@ function animate(){
         if(colRec(earth,corona))
         {
             fullPower-=20;
-            powerEle.style.width= `${fullPower}%`; 
+           
             coronas.splice(i,1);
             heart.update();
             if(fullPower==0)
