@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.box
+{
+    position: fixed;
+    top: 35vh;
+    left: 32vw;
+    height: 10rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    display: block;
+} 
+
+.btn
+{
+    margin: 3.5vh auto;
+    padding: 1rem;
+    background: #00a8ff;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.score{
+    color: white;
+    position:fixed;
+    left: 2vw;
+    top: 2vw;
+}
+
+
+.container{
+    width:20vw;
+    position:fixed;
+    top:4vh;
+    right: 2vw;
+}
